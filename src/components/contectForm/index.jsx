@@ -44,7 +44,8 @@ const contectForm = () => {
         onSubmit={data => {
           console.log(data);
           data.resetForm();
-        }}
+        }
+      }
       >
         {({ values }) => (
           <Form>
