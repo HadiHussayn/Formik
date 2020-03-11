@@ -2326,7 +2326,7 @@ const useStyles = Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_1__["
   }
 });
 
-function createData(name, email, age, country, cell) {
+const createData = (name, email, age, country, cell) => {
   return {
     name,
     email,
@@ -2334,7 +2334,7 @@ function createData(name, email, age, country, cell) {
     country,
     cell
   };
-}
+};
 
 const rows = [createData('Ali', 'ali@test.com', '20', "pakistan", '0311111111'), createData('jhon', 'jhon@test.com', '31', 'Us', '889999')];
 function DataTable() {

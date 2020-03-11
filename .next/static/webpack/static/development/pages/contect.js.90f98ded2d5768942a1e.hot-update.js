@@ -36,9 +36,11 @@ const useStyles = Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_1__["
   table: {
     minWidth: 650
   }
-});
+}); // function createData(name, email, age, country, cell) {
+//   return { name, email, age, country, cell };
+// }
 
-function createData(name, email, age, country, cell) {
+const createData = (name, email, age, country, cell) => {
   return {
     name,
     email,
@@ -46,7 +48,7 @@ function createData(name, email, age, country, cell) {
     country,
     cell
   };
-}
+};
 
 const rows = [createData('Ali', 'ali@test.com', '20', "pakistan", '0311111111'), createData('jhon', 'jhon@test.com', '31', 'Us', '889999')];
 function DataTable() {
@@ -55,7 +57,7 @@ function DataTable() {
     component: _material_ui_core_Paper__WEBPACK_IMPORTED_MODULE_8__["default"],
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 34
     },
     __self: this
   }, __jsx(_material_ui_core_Table__WEBPACK_IMPORTED_MODULE_2__["default"], {
@@ -63,66 +65,66 @@ function DataTable() {
     "aria-label": "simple table",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 35
     },
     __self: this
   }, __jsx(_material_ui_core_TableHead__WEBPACK_IMPORTED_MODULE_6__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
+      lineNumber: 36
     },
     __self: this
   }, __jsx(_material_ui_core_TableRow__WEBPACK_IMPORTED_MODULE_7__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 37
     },
     __self: this
   }, __jsx(_material_ui_core_TableCell__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 38
     },
     __self: this
   }, "Full Name"), __jsx(_material_ui_core_TableCell__WEBPACK_IMPORTED_MODULE_4__["default"], {
     align: "right",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 39
     },
     __self: this
   }, "Email"), __jsx(_material_ui_core_TableCell__WEBPACK_IMPORTED_MODULE_4__["default"], {
     align: "right",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 40
     },
     __self: this
   }, "Age"), __jsx(_material_ui_core_TableCell__WEBPACK_IMPORTED_MODULE_4__["default"], {
     align: "right",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
+      lineNumber: 41
     },
     __self: this
   }, "Country"), __jsx(_material_ui_core_TableCell__WEBPACK_IMPORTED_MODULE_4__["default"], {
     align: "right",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39
+      lineNumber: 42
     },
     __self: this
   }, "Cell No"))), __jsx(_material_ui_core_TableBody__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42
+      lineNumber: 45
     },
     __self: this
   }, rows.map(row => __jsx(_material_ui_core_TableRow__WEBPACK_IMPORTED_MODULE_7__["default"], {
     key: row.name,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44
+      lineNumber: 47
     },
     __self: this
   }, __jsx(_material_ui_core_TableCell__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -130,35 +132,35 @@ function DataTable() {
     scope: "row",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
+      lineNumber: 48
     },
     __self: this
   }, row.name), __jsx(_material_ui_core_TableCell__WEBPACK_IMPORTED_MODULE_4__["default"], {
     align: "right",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48
+      lineNumber: 51
     },
     __self: this
   }, row.email), __jsx(_material_ui_core_TableCell__WEBPACK_IMPORTED_MODULE_4__["default"], {
     align: "right",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49
+      lineNumber: 52
     },
     __self: this
   }, row.age), __jsx(_material_ui_core_TableCell__WEBPACK_IMPORTED_MODULE_4__["default"], {
     align: "right",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 53
     },
     __self: this
   }, row.country), __jsx(_material_ui_core_TableCell__WEBPACK_IMPORTED_MODULE_4__["default"], {
     align: "right",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51
+      lineNumber: 54
     },
     __self: this
   }, row.cell))))));
@@ -167,4 +169,4 @@ function DataTable() {
 /***/ })
 
 })
-//# sourceMappingURL=contect.js.6a81eee211bc3a1088ef.hot-update.js.map
+//# sourceMappingURL=contect.js.90f98ded2d5768942a1e.hot-update.js.map

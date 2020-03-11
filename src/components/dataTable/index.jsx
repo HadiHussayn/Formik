@@ -15,8 +15,8 @@ const useStyles = makeStyles({
   },
 });
 
-function createData(name, email, age, country, cell) {
-  return { name, email, age, country, cell };
+const createData = (name, email, age, country, cell) => {
+  return {name, email, age, country, cell}
 }
 
 const rows = [
